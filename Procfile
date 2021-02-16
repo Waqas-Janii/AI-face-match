@@ -1,0 +1,1 @@
+web: gunicorn -b :$PORT app:app --timeout=220 --workers=3
